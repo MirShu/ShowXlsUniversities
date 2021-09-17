@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <com.exmple.showxlsuniversities.SideBar
+        android:id="@+id/side_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:paddingEnd="10dp"
+        android:scaleY="1"
+        android:textColor="#424242"
+        android:textScaleX="15"
+        android:textSize="15sp"
+        app:scaleItemCount="6"
+        app:scaleSize="1"
+        app:scaleWidth="2dp" />
+</RelativeLayout>
+
