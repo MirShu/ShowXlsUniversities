@@ -100,7 +100,8 @@ public class UniversitiesModel implements Comparable<UniversitiesModel> {
         return results;
     }
 ```
-![2781551-f53b80242b368757](https://user-images.githubusercontent.com/13359093/209096503-85ae2529-70a8-4c11-bc3f-f686547f66fe.png)
+![QQ截图20221223102512](https://user-images.githubusercontent.com/13359093/209258558-f9e39502-d827-4beb-9e89-f6816aefcdb8.png)
 
-![2781551-5faa56285dc9a842](https://user-images.githubusercontent.com/13359093/209096540-9bb0534b-756c-4aad-8fb8-e049e967bb10.png)
+![QQ截图20221223102455](https://user-images.githubusercontent.com/13359093/209258565-7e18fd8d-f02a-4c35-b04d-156bf000fac4.png)
+
 ###### 最后就完成从xls 表格中读取数据，按照字母排序显示和搜索显示。
